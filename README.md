@@ -1,5 +1,5 @@
 # Project Euler Programs
-A collection of programs written to find the solutions for problems on [projecteuler.net](https://projecteuler.net).
+A collection of programs written to find the solutions to problems on [projecteuler.net](https://projecteuler.net).
 
 * ![Problem1.java](Problem1.java)
 * ![Problem2.java](Problem2.java)
@@ -7,3 +7,4 @@ A collection of programs written to find the solutions for problems on [projecte
 * ![Problem4.java](Problem4.java)
 * ![Problem5.java](Problem5.java)
 * ![Problem6.java](Problem6.java)
+* ![Problem7.java](Problem7.java)
