@@ -3,7 +3,7 @@
 // Find the sum of all the primes below two million.
 
 public class Problem10 {
-
+    // took 11 minutes and 10 seconds to complete execution
     public static void main(String args[]) {
         long sum = 0L;
         int n = 2_000_000;
