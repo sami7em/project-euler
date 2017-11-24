@@ -8,3 +8,4 @@ A collection of programs written to find the solutions to problems on [projecteu
 * ![Problem5.java](Problem5.java)
 * ![Problem6.java](Problem6.java)
 * ![Problem7.java](Problem7.java)
+* ![Problem8.java](Problem8.java)
