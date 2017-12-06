@@ -3,28 +3,32 @@
 // Find the sum of all the primes below two million.
 
 public class Problem10 {
-    // took 11 minutes and 10 seconds to complete execution
+    // execution completed within a second using the sieve of Eratosthenes algorithm
     public static void main(String args[]) {
-        long sum = 0L;
         int n = 2_000_000;
-        for(int i = 0; i < n; i++) {
-            if(isPrime(i)) {
-                sum += i;
-                System.out.println("i = " + i + " Sum = " + sum);
+        int prime = 1;
+        long sum = 0L;
+        int list[] = new int[n];
+        for (int i = 0; i < n; i++) {
+            list[i] = i;
+        }
+        int i;
+        while (prime < n - 1) {
+            i = 2;
+            prime++;
+            if (list[prime] == -1) {
+                continue;
+            }
+            while (i * prime < n) {
+                list[i * prime] = -1;
+                i++;
             }
         }
-    }
-    
-    public static boolean isPrime(int n) {
-        if(n < 2) {
-            return false;
-        } else {
-            for(int i = 2; i < n; i++) {
-                if(n % i == 0) {
-                    return false;
-                }
+        for (int j = 2; j < n - 2; j++) {
+            if (list[j] != -1) {
+                sum += j;
             }
         }
-        return true;
+        System.out.println("Sum = " + sum);
     }
 }
