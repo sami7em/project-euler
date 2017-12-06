@@ -10,3 +10,4 @@ A collection of programs written to find the solutions to problems on [projecteu
 * ![Problem7.java](Problem7.java)
 * ![Problem8.java](Problem8.java)
 * ![Problem9.java](Problem9.java)
+* ![Problem10.java](Problem10.java)
