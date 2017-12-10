@@ -11,3 +11,4 @@ A collection of programs written to find the solutions to problems on [projecteu
 * ![Problem8.java](Problem8.java) - Largest product in a series
 * ![Problem9.java](Problem9.java) - Special Pythagorean triplet
 * ![Problem10.java](Problem10.java) - Summation of primes
+* ![Problem11.java](Problem11.java) - Largest product in a grid
